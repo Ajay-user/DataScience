@@ -1,0 +1,20 @@
+Data is collected from various sources
+
+Web URLs
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3533
+http://www.manythings.org/anki/
+
+
+citation : 
+Parida, Shantipriya and Bojar, Ondřej, 2021, 
+  Malayalam Visual Genome 1.0, LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, 
+  http://hdl.handle.net/11234/1-3533.
+
+
+Introducing Anki
+If you don't already use Anki, vist the website at http://ankisrs.net/ to download this free application for Macintosh, Windows or Linux.
+About These Files
+Any flashcard program that can import tab-delimited text files, such as Anki (free) can use these files.
+Warning! There are errors in the Tatoeba Corpus. (Detailed Warning)
+In order to minimize the number of errors, I only used sentences that were owned by identified native speakers working on the Tatoeba Project and English sentences that I've personally checked and did not reject.
+Warning! Please remember that even doing this may not have eliminated all errors.
