@@ -63,39 +63,39 @@ True labels used to train the model :
 ഉയരമുള്ള കെട്ടിടത്തിന് മുന്നിൽ ക്ലോക്ക് <br>
 ----------------------------------------------------------------------
 English :
-round gourmet style pizza cut in 6 slices
+round gourmet style pizza cut in 6 slices <br>
 Prediction :
-റൗണ്ട് ണ്ട് സ്റ്റൈൽ പിസ്സ 6 കഷണങ്ങളായി മുറിച്ചു
+റൗണ്ട് ണ്ട് സ്റ്റൈൽ പിസ്സ 6 കഷണങ്ങളായി മുറിച്ചു <br>
 True labels used to train the model :
-റ s ണ്ട് ഗ our ർമെറ്റ് സ്റ്റൈൽ പിസ്സ 6 കഷണങ്ങളായി മുറിച്ചു
+റ s ണ്ട് ഗ our ർമെറ്റ് സ്റ്റൈൽ പിസ്സ 6 കഷണങ്ങളായി മുറിച്ചു <br>
 ----------------------------------------------------------------------
 English :
-Gourmet pizza with several toppings
+Gourmet pizza with several toppings <br>
 Prediction :
-നിരവധി ടോപ്പിംഗുകളുള്ള പിസ്സ
+നിരവധി ടോപ്പിംഗുകളുള്ള പിസ്സ <br>
 True labels used to train the model :
-നിരവധി ടോപ്പിംഗുകളുള്ള ഗൗർമെറ്റ് പിസ്സ
+നിരവധി ടോപ്പിംഗുകളുള്ള ഗൗർമെറ്റ് പിസ്സ <br>
 ----------------------------------------------------------------------
 English :
-sandwiches on the plate
+sandwiches on the plate <br>
 Prediction :
-പ്ലേറ്റിൽ സാൻഡ്വിച്ചുകൾ
+പ്ലേറ്റിൽ സാൻഡ്വിച്ചുകൾ <br>
 True labels used to train the model :
-പാത്രത്തിൽ സാൻഡ്‌വിച്ചുകൾ
+പാത്രത്തിൽ സാൻഡ്‌വിച്ചുകൾ <br>
 ----------------------------------------------------------------------
 English :
-red caution light between trains
+red caution light between trains <br>
 Prediction :
-ചുവന്ന ജാഗ്രത വെളിച്ചം
+ചുവന്ന ജാഗ്രത വെളിച്ചം <br>
 True labels used to train the model :
-ട്രെയിനുകൾക്കിടയിൽ ചുവന്ന ജാഗ്രത വെളിച്ചം
+ട്രെയിനുകൾക്കിടയിൽ ചുവന്ന ജാഗ്രത വെളിച്ചം <br>
 ----------------------------------------------------------------------
 English :
-reflection of lights on water's surface
+reflection of lights on water's surface <br>
 Prediction :
-ജലത്തിന്റെ ലൈറ്റുകളുടെ പ്രതിഫലനം
+ജലത്തിന്റെ ലൈറ്റുകളുടെ പ്രതിഫലനം <br>
 True labels used to train the model :
-ജലത്തിന്റെ ഉപരിതലത്തിലെ ലൈറ്റുകളുടെ പ്രതിഫലനം
+ജലത്തിന്റെ ഉപരിതലത്തിലെ ലൈറ്റുകളുടെ പ്രതിഫലനം  <br>
 ----------------------------------------------------------------------
 
 # Our data has lot of errors but model learned to generalize
