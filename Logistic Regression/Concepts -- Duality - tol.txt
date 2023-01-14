@@ -1,0 +1,82 @@
+
+
+Duality (optimization)
+
+
+ In mathematical optimization theory, 
+ duality or the duality principle is the principle that optimization problems
+ may be viewed from either of two perspectives,
+ the primal problem or the dual problem.
+
+ If the primal is a minimization problem then the dual is a maximization problem
+ (and vice versa).
+
+ Any feasible solution to the primal (minimization) problem is at least
+ as large as any feasible solution to the dual (maximization) problem.
+
+ Therefore, the solution to the primal is an upper bound to 
+ the solution of the dual, and the solution of the dual is a lower bound to 
+ the solution of the primal. This fact is called weak duality.
+
+ In general, the optimal values of the primal and dual problems need not be equal.
+ Their difference is called the duality gap. 
+
+ For convex optimization problems,
+ the duality gap is zero under a constraint qualification condition.
+ This fact is called strong duality. 
+
+
+--------------------------------------------------------------------------------
+Sklearn -- dualbool, default=False
+
+    Dual or primal formulation.
+    Dual formulation is only implemented for l2 penalty with liblinear solver.
+ Prefer dual=False when n_samples > n_features.
+--------------------------------------------------------------------------------
+
+
+
+Logistic reg sklearn
+## tolfloat, default=1e-4
+    Tolerance for stopping criteria.
+The tol parameter tells the optimization algorithm when to stop.
+ If the value of tol is too big, the algorithm stops before it can converge. 
+
+ tol ==> Tolerance for stopping criteria. 
+ This tells scikit to stop searching for a minimum (or maximum)
+ once some tolerance is achieved, i.e. once you're close enough.
+ tol will change depending on the objective function being minimized
+ and the algorithm they use to find the minimum,
+ and thus will depend on the model you are fitting.
+ There is no universal tolerance to scikit.
+
+For a Logistic reg model
+tol : float
+     Stopping criterion. For the newton-cg and lbfgs solvers, the iteration
+     will stop when ``max{|g_i | i = 1, ..., n} <= tol``
+     where ``g_i`` is the i-th component of the gradient.
+
+For a multilayer perceptron model:
+
+tol : float, optional, default 1e-4
+     Tolerance for the optimization. When the loss or score is not improving
+     by at least tol for two consecutive iterations, unless `learning_rate`
+     is set to 'adaptive', convergence is considered to be reached and
+     training stops.
+
+For example, in Lasso, the documentation says
+
+    The tolerance for the optimization:
+ if the updates are smaller than tol,
+ the optimization code checks the dual gap for optimality
+ and continues until it is smaller than tol.
+
+
+
+
+
+
+
+
+
+
